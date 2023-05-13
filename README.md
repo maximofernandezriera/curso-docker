@@ -25,13 +25,27 @@
 - Al ejecutar un contenedor, estás ejecutando un servicio en una distribución construida a partir de una "receta", lo que garantiza la consistencia del sistema, independientemente del sistema operativo base (Ubuntu, Fedora, etc.).
 - Esto asegura el desarrollo o despliegue de una aplicación con la **misma versión de todas las dependencias**, sin importar el entorno.
 
+# Contenedores III
+
+![Captura de pantalla de 2023-05-13 16-41-28](https://github.com/maximofernandezriera/curso-docker/assets/43608040/1eaf155f-bd7b-4c42-af96-3ff3f6ed51f0)
+
 # Imágenes II
 
 - Una **Imagen** es una plantilla de solo lectura que contiene las instrucciones para crear un contenedor Docker.
 - Las imágenes pueden estar **basadas en otras imágenes**, usando ficheros como el Dockfile para definirlas.
-- Un ejemplo de imagen podría ser un sistema operativo **Ubuntu con un servidor Apache** y tu aplicación web instalada.
+- Un ejemplo de imagen podría ser un sistema operativo **Ubuntu con un servidor Apache** y nuestra aplicación web instalada.
 
 ![Captura de pantalla de 2023-05-13 14-17-13](https://github.com/maximofernandezriera/curso-docker/assets/43608040/1d0d89f5-d7ad-493b-8a0a-1357c4f8e858)
+
+# Imágenes y contenedores
+
+- Un **contenedor** es una instancia ejecutable de una imagen.
+- Esta instancia puede ser **creada, iniciada, detenida, movida o eliminada** a través del cliente de Docker o de la API.
+- Las instancias de contenedores pueden ser conectadas a una o más redes, sistemas de almacenamiento, o incluso se puede crear una imagen a partir del estado de un contenedor.
+- Se puede controlar el nivel de **aislamiento del contenedor** del sistema anfitrión y del resto de contenedores.
+- El contenedor está definido tanto por la imagen de la que procede como de las opciones de configuración que permita.
+- Por ejemplo, la imagen oficial de **MariaDb permite configurar** a través de opciones la contraseña del administrador, de la primera base de datos que se cree, del usuario que la maneja, etc.
+
 
 
 
