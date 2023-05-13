@@ -31,6 +31,8 @@
 - Las imágenes pueden estar **basadas en otras imágenes**, usando ficheros como el Dockfile para definirlas.
 - Un ejemplo de imagen podría ser un sistema operativo **Ubuntu con un servidor Apache** y tu aplicación web instalada.
 
+![Captura de pantalla de 2023-05-13 14-17-13](https://github.com/maximofernandezriera/curso-docker/assets/43608040/1d0d89f5-d7ad-493b-8a0a-1357c4f8e858)
+
 
 
 
